@@ -1,12 +1,59 @@
-# React + Vite
+SwapAm — React Crypto Exchange Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SwapaAm** is a modern, responsive, single-page crypto and gift cards exchange platform built with React, Tailwind CSS, and Framer Motion. It provides real-time market data, trading CTA buttons, FAQs, and a secure trading feel — perfect for onboarding users into the crypto world.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Hero section with animated CTA
+- Real-time crypto market prices (CoinGecko API)
+- “Why Trade With Us” section with animation
+- FAQ accordion using Headless UI
+- WhatsApp integration for instant trading
+- Mobile-first responsive design
+- Styled with Tailwind CSS
+- Animations with Framer Motion
+- Toast & modal alerts with Sonner & SweetAlert2
+- Secure structure ready for expansion
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Frontend   | Purpose                     |
+|------------|-----------------------------|
+| React      | Component-based UI          |
+| Tailwind CSS | Styling framework         |
+| Framer Motion | Animation & transitions |
+| Sonner     | Toast alerts                |
+| SweetAlert2 | Confirmation modals        |
+| Lucide React | Beautiful icons           |
+| CoinGecko API | Real-time market data    |
+
+
+## Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/cryptoxchange.git
+
+# Go into the project folder
+cd cryptoxchange
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── HeroSection.jsx
+│   ├── MarketSection.jsx
+│   ├── WhyTradeSection.jsx
+│   ├── FaqSection.jsx
+│   └── Footer.jsx
+├── reuseables/
+│   └── Button.jsx
+├── App.jsx
+└── main.jsx
+
