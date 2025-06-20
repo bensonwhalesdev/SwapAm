@@ -35,7 +35,7 @@ SwapAm — React Crypto Exchange Website
 git clone https://github.com/yourusername/cryptoxchange.git
 
 # Go into the project folder
-cd cryptoxchange
+cd SwapAm
 
 # Install dependencies
 npm install
