@@ -24,7 +24,7 @@ const Header = () => {
         </ul>
 
         <Button phoneNumber="2349078837815"
-        message="Hello, i wwant to trade!" text="Trade Now" classStyle="bg-green-600 hover:bg-green-700 font-medium px-5 py-3 rounded-xl shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 cursor-pointer" />
+        message="Hello, i want to trade!" text="Trade Now" classStyle="bg-green-600 hover:bg-green-700 font-medium px-5 py-3 rounded-xl shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 cursor-pointer" />
       </div>
 
       {/* Mobile Hamburger */}
@@ -41,7 +41,7 @@ const Header = () => {
           <li className="hover:border-b-3 border-white list-none cursor-pointer">About</li>
           <li className="hover:border-b-3 border-white list-none cursor-pointer">Contact</li>
           <Button phoneNumber="2349078837815"
-        message="Hello, i wwant to trade!" text="Trade Now" classStyle="bg-green-600 hover:bg-green-700 font-medium py-2 px-2 rounded-xl shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 cursor-pointer mt-2" />
+        message="Hello, i want to trade!" text="Trade Now" classStyle="bg-green-600 hover:bg-green-700 font-medium py-2 px-2 rounded-xl shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 cursor-pointer mt-2" />
         </div>
       </div>
     </>

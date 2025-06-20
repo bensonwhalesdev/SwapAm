@@ -68,7 +68,7 @@ const WhyTradeSection = () => {
       </div>
 
       <motion.div className="text-center" initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6, delay: 0.8 }} >
-        <Button phoneNumber="2349078837815" message="Hello, i wwant to trade!" text="Trade Now"
+        <Button phoneNumber="2349078837815" message="Hello, i want to trade!" text="Trade Now"
           classStyle="bg-[#12A633] hover:bg-[#0f8e2b] px-6 py-3 text-white font-semibold text-lg rounded-xl shadow-md transition"/>
       </motion.div>
     </section>

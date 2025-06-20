@@ -15,7 +15,7 @@ const Hero = () => {
             We’re 100% reliable, secure, fast, and Real-time stress free
           </p>
           <Button phoneNumber="2349078837815"
-        message="Hello, i wwant to trade!" classStyle={"bg-[#12A633] text-white px-6 py-3 rounded-xl shadow hover:bg-[#0f8e2b] transition cursor-pointer"} text={'Trade Now'}  />
+        message="Hello, i want to trade!" classStyle={"bg-[#12A633] text-white px-6 py-3 rounded-xl shadow hover:bg-[#0f8e2b] transition cursor-pointer"} text={'Trade Now'}  />
         </div>
 
         <TradingChart />
